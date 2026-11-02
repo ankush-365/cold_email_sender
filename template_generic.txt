@@ -1,0 +1,22 @@
+Subject: Application for [Role] Position - {name}
+
+Dear {company} Team,
+
+Could you please forward this email to your HR or hiring team? Thank you.
+
+I am {name}, currently working as [your current role] at [your company], where I [one line about what you do]. I am writing to express my interest in [Role] opportunities at {company}.
+
+[A short paragraph about your most relevant experience.]
+
+[A short paragraph about your projects and skills.]
+
+I am eager to contribute to projects at {company} and would appreciate the opportunity to discuss any relevant openings that align with my skills and experience. I have attached my resume for your consideration.
+
+Thank you for your time. I look forward to hearing from you.
+
+Best regards,
+
+{name}
+Phone: {phone}
+LinkedIn: {linkedin}
+GitHub: {github}
