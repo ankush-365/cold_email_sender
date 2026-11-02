@@ -14,12 +14,9 @@ Only Python's standard library is needed for sending; the scraper uses `requests
 | File | What it is |
 |---|---|
 | `companies.csv` | Companies to target: `company,website,city` |
-| `companies_abroad.csv` | Companies outside your country: `company,website,country` |
 | `manual_emails.csv` | Addresses you found by hand; these override the scraper |
-| `schedule.txt` | Which cities/countries get emailed on which weekday |
 | `template.txt` | The email. First line is the subject |
 | `template_generic.txt` | Same plus "please forward to HR", for general inboxes like `info@` |
-| `template_abroad.txt`, `template_abroad_generic.txt` | Versions for companies abroad (mention remote work / relocation) |
 | `scrape_emails.py` | Finds addresses and writes `contacts.csv` / `contacts_abroad.csv` |
 | `send_emails.py` | Sends the emails and labels them in Gmail |
 | `check_replies.py` | Checks Gmail for responses and writes `responses.csv` |
@@ -60,11 +57,6 @@ Created when you run it (and kept out of git by `.gitignore`): `.env`, `contacts
    Acme AI,https://www.acme.ai,Pune
    ```
 
-7. **Set your schedule** in `schedule.txt` (city names must match the `city` column):
-   ```
-   Monday  = Pune
-   Tuesday = Bangalore
-   ```
 
 ## Usage
 
